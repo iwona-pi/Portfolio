@@ -1,0 +1,109 @@
+html {
+    box-sizing: border-box
+}
+*,
+*::after,
+*::before {
+    box-sizing: inherit
+}
+
+body {
+   min-width: 500px;
+}
+
+.nav {
+	display: flex;
+	width: 100%;
+	background-color: black;
+}
+
+#logo {
+	width: 10%;
+	order: 0;
+	color: white;
+	padding: 0 10px 0 10px;
+}
+
+.title {
+	letter-spacing: 30px;
+	color: white;
+	width: 30%;
+	order: 1;
+	font-size: 1.5em;
+}
+
+#name {
+	letter-spacing: 2px;
+	order: 2;
+	width: 30%;
+	text-align: right;
+	color: white;
+	letter-spacing: 5px;
+	font-size: 1.2em;
+}
+
+.empty {
+	width: 65%;
+	order: 1;
+}
+
+.picture {
+	background-image: url("./images/automation-peer-programming.jpg");
+	max-width: 100%;
+	height: 800px;
+	background-size: cover;	
+}
+
+.words {
+	color: white;
+    width: 80%;
+    text-align: center;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    padding-top: 70px;   
+}
+
+.words div {
+	height: 80px;
+}
+
+.fourth {
+	letter-spacing: 30px;
+}
+ 
+.works {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+ }
+
+.work {
+	width: 33.33%;
+	letter-spacing: 5px;
+}
+
+.one {
+	order:0;
+}
+
+.two {
+    order: 1;
+}
+
+.three {
+	order: 2;
+}
+
+.works img {
+	height: 212px;
+	width: 400px;
+}
+
+.caption {
+    font-size: 1.5em;
+    text-align: center;
+    letter-spacing: 30px;
+    margin: 100px;
+}
