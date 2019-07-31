@@ -1,4 +1,4 @@
-html {
++html {
     box-sizing: border-box
 }
 *,
@@ -73,18 +73,21 @@ body {
 }
  
 .works {
+
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+
  }
 
 .work {
 	width: 33.33%;
 	letter-spacing: 5px;
+	margin-bottom: 50px;
 }
 
-.one {
+/* .one {
 	order:0;
 }
 
@@ -94,7 +97,7 @@ body {
 
 .three {
 	order: 2;
-}
+} */
 
 .works img {
 	height: 212px;

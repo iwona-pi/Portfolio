@@ -18,17 +18,17 @@
 
 
 @media screen and (min-width: 801px) {
-	.one, .two {
+	.work{
 		width: 50%;
 	}
-    .three {
-    	width: 100%;
-    }
+    /* .three, .four, .five{
+    	width: 50%;
+    } */
 }
 
 
 @media screen and (min-width: 1200px) {
-	.one, .two, .three {
+	.work{
      	width: 33.33%;
 	}
 }
