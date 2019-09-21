@@ -10,6 +10,7 @@
     }
     .picture {
     	max-height: fit-content;
+    	height: fit-content;
     }
     .caption {
     	letter-spacing: 5px;
@@ -21,7 +22,7 @@
 	.work{
 		width: 50%;
 	}
-    /* .three, .four, .five{
+/*    .three, .four, .five{
     	width: 50%;
     } */
 }
@@ -31,4 +32,5 @@
 	.work{
      	width: 33.33%;
 	}
+
 }
